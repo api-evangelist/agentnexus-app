@@ -72,26 +72,55 @@ Agent Nexus provides an infrastructure platform for AI agents, offering a public
 
 Everything profiled for Agent Nexus is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/agentnexus-app/](https://apis.io/providers/agentnexus-app/)** — or go straight to one of the APIs or properties below.
 
-### APIs (1)
+### APIs (4)
 
-- [Agent Nexus API](https://apis.io/apis/agentnexus-app/agent-nexus-api/) — Public API for free key minting and registry access.
+- [Agent Nexus Discovery API](https://apis.io/apis/agentnexus-app/agentnexus-app-discovery-api/) — Find interfaces for a task
+- [Agent Nexus Keys API](https://apis.io/apis/agentnexus-app/agentnexus-app-keys-api/) — Self-service API keys
+- [Agent Nexus Registry API](https://apis.io/apis/agentnexus-app/agentnexus-app-registry-api/) — Read registry entries
+- [Agent Nexus Reliability API](https://apis.io/apis/agentnexus-app/agentnexus-app-reliability-api/) — Health and uptime evidence
 
 ### Published properties
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-#### Security (2)
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Agent Nexus Agentic Access](https://apis.io/agentic-access/agentnexus-app/agentnexus-app-agentic-access/)
+
+#### JSON Schema (2)
+
+The data models the API reads and writes.
+
+- [DiscoveryResult](https://apis.io/schemas/agentnexus-app/agentnexus-app-discovery-result/)
+- [Entry](https://apis.io/schemas/agentnexus-app/agentnexus-app-entry/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Agentnexus App Context](https://apis.io/jsonld/agentnexus-app/agentnexus-app-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Agent Nexus API Rules](https://apis.io/rules/agentnexus-app/agentnexus-app-rules/)
+
+#### Security (3)
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Agentnexus App Domain Security](https://apis.io/security/agentnexus-app/agentnexus-app-domain-security/)
-- [Agentnexus App Vulnerability Disclosure](https://apis.io/security/agentnexus-app/agentnexus-app-vulnerability-disclosure/)
+- [Agent Nexus Authentication](https://apis.io/security/agentnexus-app/agentnexus-app-authentication/)
+- [Agent Nexus Domain Security](https://apis.io/security/agentnexus-app/agentnexus-app-domain-security/)
+- [Agent Nexus Vulnerability Disclosure](https://apis.io/security/agentnexus-app/agentnexus-app-vulnerability-disclosure/)
 
 #### Plans and pricing (1)
 
 Published plans, tiers and prices.
 
-- [Agentnexus App Plans Pricing](https://apis.io/plans/agentnexus-app/agentnexus-app-plans-pricing/)
+- [Agent Nexus Plans Pricing](https://apis.io/plans/agentnexus-app/agentnexus-app-plans-pricing/)
 
 ## Where to find this API
 
@@ -99,8 +128,10 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 - [Website](https://agentnexus.app/)
 - [Documentation](https://agentnexus.app/guides/api-fallbacks)
+- [Getting started](https://agentnexus.app/explore)
 - [API reference](https://agentnexus.app/llms.txt)
 - [Pricing](https://agentnexus.app/pricing)
+- [Sign up](https://agentnexus.app/auth)
 - [Security](https://agentnexus.app/privacy)
 - [Terms of service](https://agentnexus.app/terms)
 - [Privacy policy](https://agentnexus.app/privacy)
@@ -108,42 +139,43 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 30.6** — thin · rubric 0.25.0 · scored 2026-11-01
+**Kin Score 62.4** — strong · rubric 0.27.0 · scored 2026-11-15
 
 | Facet | Score |
 |---|---|
 | Discoverability | 65.0 |
-| Contract quality | 0.0 |
-| Contract governance | 16.4 |
+| Contract quality | 57.7 |
+| Contract governance | 67.3 |
 | Operational transparency | 26.3 |
-| Developer ergonomics | 23.8 |
-| Access clarity | 60.0 |
+| Developer ergonomics | 63.6 |
+| Access clarity | 76.3 |
 
-**Agent readiness 21.8** — agent-aware
+**Agent readiness 47.8** — agent-ready (gated down from agent-native)
 
 | Agent-readiness dimension | Result |
 |---|---|
-| Spec Presence | — |
-| Agentic Access | — |
+| Spec Presence | yes |
+| Agentic Access | unknown |
 | Reversibility Documented | — |
 | MCP Server | documented (partial credit) |
-| Auth Clarity | served (partial credit) |
+| Auth Clarity | bearer (partial credit) |
 | Idempotency | — |
-| Error Semantics | — |
-| OpenAPI Examples | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | partial |
 | Rate Limit Signal | — |
 | Event Surface Described | — |
-| Agent Skills | — |
-| Well Known Catalog | yes |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
 | Consent Identity | — |
 | Agent Card | conformant |
 | Dry Run Mode | — |
 | Delegated Identity | — |
 | Protected Resource Metadata | verified |
 | Dynamic Client Registration | — |
-| Agentic Commerce | — |
-| Pagination Ratio | na |
-| Operation Distinctiveness | na |
+| Agentic Commerce | self |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
 
 **Regulatory alignment 28.2** — Horizontal (data, software, accessibility, platform)
 
