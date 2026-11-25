@@ -66,7 +66,7 @@
 
 Agent Nexus provides an infrastructure platform for AI agents, offering a public registry of APIs, MCP servers, and CLI tools that agents can discover and call without authentication. It supports free and paid tiers, with rate limits and monitoring, enabling developers to integrate and monetize agentic services. The service includes a searchable catalog, automated health checks, and drift alerts, aiming to simplify the creation and operation of AI-driven applications.
 
-**Areas:** Company · AI · Infrastructure · Registry · Agents · Platform
+**Areas:** Company · Artificial Intelligence · Infrastructure · Registry · Agents · Platform
 
 ## Agent Nexus on APIs.io
 
@@ -82,6 +82,12 @@ Everything profiled for Agent Nexus is published on APIs.io rather than in this 
 ### Published properties
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [agentnexus-app-mcp.yml](https://apis.io/servers/agentnexus-app/agentnexus-app-mcp-yml/)
 
 #### Agentic access (1)
 
@@ -139,33 +145,33 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 62.4** — strong · rubric 0.27.0 · scored 2026-11-15
+**Kin Score 58.1** — strong · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 65.0 |
-| Contract quality | 57.7 |
-| Contract governance | 67.3 |
-| Operational transparency | 26.3 |
-| Developer ergonomics | 63.6 |
-| Access clarity | 76.3 |
+| Discoverability | 81.7 |
+| Contract quality | 60.7 |
+| Contract governance | 22.0 |
+| Operational transparency | 23.8 |
+| Developer ergonomics | 58.9 |
+| Access clarity | 76.6 |
 
-**Agent readiness 47.8** — agent-ready (gated down from agent-native)
+**Agent readiness 48.0** — agent-ready (gated down from agent-native)
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
-| Agentic Access | unknown |
+| Agentic Access | derived (partial credit) |
 | Reversibility Documented | — |
 | MCP Server | documented (partial credit) |
 | Auth Clarity | bearer (partial credit) |
 | Idempotency | — |
-| Error Semantics | derived (partial credit) |
+| Error Semantics | verified |
 | OpenAPI Examples | partial |
 | Rate Limit Signal | — |
 | Event Surface Described | — |
-| Agent Skills | unknown |
-| Well Known Catalog | — |
+| Agent Skills | derived (partial credit) |
+| Well Known Catalog | yes |
 | Consent Identity | — |
 | Agent Card | conformant |
 | Dry Run Mode | — |
@@ -176,6 +182,9 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Pagination Ratio | paginated |
 | Operation Distinctiveness | distinct |
 | MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | yes |
 
 **Regulatory alignment 28.2** — Horizontal (data, software, accessibility, platform)
 
